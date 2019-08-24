@@ -1,0 +1,13 @@
+Leia o arquivo tutorial_data.txt usando pandas e chequem a tabela com um print. Chequem que tipo de informação esse dataset. Façam um .describe().T para verificar seus dados. Usando o que viram hoje, tentem responder as seguintes perguntas:
+
+Existem missing values? 
+Esse dataset tem quantas galáxias e quantas estrelas?
+Como é a distribuição de r_auto das galáxias? E das estrelas?
+Qual é a média e desvio padrão de r_auto das galáxias? E das estrelas?
+Considerando apenas FWHM, A e B, faça um sns.pairplot por classe. O que você conclui? 
+Use model_selection.train_test_split do sklearn para dividir seu dataset em amostra de treinamento e de teste:   X_train, X_test, y_train, y_test = train_test_split([complete!]) 
+Use novamente o train_test_split() para separar seu X_train e y_train em treinamento e validação (Cuidado! Lembre que X_train e y_train são dados pareados)
+
+Escolha pelo menos um algoritmo:  tree.DecisionTreeClassifier() ensemble.RandomForestClassifier() neighbours.KNeighborsClassifier() svm.SVC() 
+Treinem alguns modelos variando os parâmetros. Use sua amostra de validação para avaliar a performance de cada modelo. Qual deu o melhor resultado?
+
